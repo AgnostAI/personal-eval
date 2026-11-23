@@ -1,0 +1,44 @@
+{
+  "name": "personal-eval",
+  "version": "0.1.0",
+  "description": "Which model actually works best for you? One command reads your local coding-agent sessions and scores your models on how often you had to correct them.",
+  "type": "module",
+  "bin": {
+    "personal-eval": "bin/personal-eval.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "fonts"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node bin/personal-eval.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "2.6.2"
+  },
+  "optionalDependencies": {
+    "@anthropic-ai/sdk": "^1.12.0"
+  },
+  "keywords": [
+    "eval",
+    "llm",
+    "claude-code",
+    "codex",
+    "gemini-cli",
+    "opencode",
+    "coding-agent",
+    "model-comparison"
+  ],
+  "license": "MIT",
+  "author": "Agnost AI (https://agnost.ai)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgnostAI/personal-eval.git"
+  },
+  "homepage": "https://github.com/AgnostAI/personal-eval#readme"
+}
